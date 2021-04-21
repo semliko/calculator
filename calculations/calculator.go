@@ -78,7 +78,7 @@ func PrintCalculation(c CalculationResult) {
 	var result, num1, num2 float64
 	var operator string
 	num1, num2, operator = c.ReturnFields()
-	fmt.Println(c.Calculate())
+	result = c.Calculate()
 	fmt.Println("====================See the result below===========================")
 	fmt.Println(num1, " ", operator, " ", num2, " ", "= ", result)
 }
