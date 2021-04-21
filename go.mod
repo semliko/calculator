@@ -1,3 +1,3 @@
-module github.com/semliko/calculator
+module calculator
 
 go 1.16
